@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container img {
+    position: absolute;
+    opacity: 0.9;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container label {
+    position: absolute;
+    top: 25vh;
+    left: 65vw;
+    width: inherit;
+    z-index: 2;
+    font-size: 30px;
+    font-weight: bolder;
+}
